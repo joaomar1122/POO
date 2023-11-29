@@ -21,6 +21,10 @@
               $this->curtidas++;
        }
 
+	public function deslike(){
+		$this->curtidas--;
+	}
+
 
 	public function getTitulo() {
 		return $this->titulo;

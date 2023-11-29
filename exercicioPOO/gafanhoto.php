@@ -9,7 +9,6 @@
        }
 
        public function __construct($nome,$idade,$sexo,$login){
-              parent::__construct($nome,$idade,$sexo);
               $this->login = $login;
               $this->totAssistido = 0;
        }

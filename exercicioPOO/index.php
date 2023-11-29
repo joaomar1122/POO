@@ -19,6 +19,7 @@
        $v[2] = new Video("Aula 15 de Html");
        $v[0]->play();
        $v[1]->like();
+       $v[1]->deslike();
 
        $g[0]= new Gafanhoto("Jubileu",22,"M","juba");
        $g[1]= new Gafanhoto("Creuda",22,"F","Creudinha");
